@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 100vh;
+}
+
+.parent{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 160px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #fff;
+}
+
+span{
+    font-size: 1.7rem;
+    padding: 0.8rem 0;
+}
+
+.btn{
+    padding: 4px 10px;
+    border-radius: 7px 0 7px 0;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-transform: capitalize;
+}
+
+.btn:active{
+    transform: translateY(4px);
+}
+
+.decrease{
+    background-color: #b22222;
+    color: #fff;
+}
+
+.increase{
+    background-color: #228b22;
+    color: #fff;
+}
+
+.btn:nth-child(2){
+    margin: 0 4px;
+}
